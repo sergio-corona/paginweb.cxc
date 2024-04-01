@@ -1,0 +1,30 @@
+html{
+    background-color:white;
+
+}
+body{
+    margin: 50px;
+    background-color:#eee;
+    border-top: 1px black;
+
+}
+.ssl{
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue;
+    background-color:aqua;
+    border-top: 1px black;
+    text-align: center;
+}
+.txt{
+    color:#000055;
+    text-align: center;
+}
+.tct{
+    color:#11e366;
+    font-size: 40px;
+    text-align: center;
+}
+h5{
+    color:#666;
+    background-color:#ddd;
+}

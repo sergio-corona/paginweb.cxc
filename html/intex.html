@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB¡Type</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #2196F3;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        section {
+            padding: 30px;
+            text-align: center;
+        }
+
+        section img {
+            margin-top: 20px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        #conocenos, #registro, #contratanos, #planes, #servicio-mensual {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+
+        form {
+            text-align: left;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        .formulario {
+            background-color: #e3f2fd;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #2196F3;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0f7ae5;
+        }
+
+        footer {
+            background-color: #2196F3;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .plan {
+            margin-bottom: 30px;
+        }
+
+        .plan h3 {
+            color: #333;
+        }
+
+        .plan p {
+            color: #666;
+        }
+
+        .plan button {
+            background-color: #2196F3;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WEB¡Type</h1>
+    </header>
+
+    <section>
+        <p>Somos expertos en la programación y desarrollo web. Desde páginas web simples hasta aplicaciones web complejas, estamos aquí para ayudarte a llevar tus ideas a la realidad.</p>
+        <!-- Puedes cambiar la ruta de las imágenes según tus necesidades -->
+        <img src="../img/imagen_ejemplo_1.jpg" alt="Ejemplo de Programación Web 1">
+        <img src="../img/imagen_ejemplo_2.jpg" alt="Ejemplo de Programación Web 2">
+    </section>
+
+    <section id="conocenos">
+        <h2>Conócenos</h2>
+        <p>Somos un grupo de programadores apasionados por crear soluciones web innovadoras y efectivas. Nos enfocamos en comprender tus necesidades y ofrecerte resultados excepcionales que impulsen tu proyecto.</p>
+    </section>
+
+    <section id="registro">
+        <h2>¿Estás interesado?</h2>
+        <div class="formulario">
+            <form action="procesar_registro.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br>
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo" required><br>
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required><br><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    
+
+    <section id="contratanos">
+        <h2>Contrátanos!!</h2>
+        <p>Somos tu mejor opción para el desarrollo web. Nuestro equipo se esfuerza por ofrecerte soluciones creativas y profesionales que se adapten a tus necesidades específicas.</p>
+        
+    </section>
+
+    <section id="planes">
+        <h2>Planes</h2>
+        <div class="plan">
+            <h3>Plan Sencillo</h3>
+            <p>Perfecto para proyectos básicos o personales.</p>
+            <p>Precio: $199</p>
+            <a href="../html/snsy.html">CONTRATAR</a>
+        </div>
+        <div class="plan">
+            <h3>Plan Negocio</h3>
+            <p>Para pequeñas y medianas empresas.</p>
+            <p>Precio: $399</p>
+            <a href="../html/ngc.html">CONTRATAR</a>
+        </div>
+        <div class="plan">
+            <h3>Plan Empresa</h3>
+            <p>Para empresas que requieren funcionalidades avanzadas.</p>
+            <p></p>Precio: $1949</p>
+            <a href="../html/emps.html">CONTRATAR</a>
+        </div>
+        <div class="plan">
+            <h3>Menú Restaurante</h3>
+            <p>Plataforma diseñada especialmente para restaurantes.</p>
+            <p>Precio: $299</p>
+            <a href="../html/mn.html">CONTRATAR</a>
+        </div>
+        <div class="plan">
+            <h3>Página E-commerce</h3>
+            <p>Ideal para iniciar tu tienda en línea.</p>
+            <p>Precio: $1023</p>
+            <a href="../html/ecmrs.html">CONTRATAR</a>
+        </div>
+    </section>
+
+    <section id="servicio-mensual">
+        <h2>Servicio Mensual</h2>
+        <p>Nuestro servicio mensual se encarga de brindarte mantenimiento continuo para tu página web, así como realizar los cambios que necesites. Los precios varían según el tipo de cambio y las necesidades específicas de tu proyecto.</p>
+    </section>
+
+    <section id="registro">
+        <h2>¿Estás interesado?</h2>
+        <div class="formulario">
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br>
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo" required><br>
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required><br><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <h2>¿Por qué elegirnos?</h2>
+        <p>Somos tu mejor opción en desarrollo web por varias razones:</p>
+        <ul>
+            <li>Tenemos experiencia y conocimientos técnicos sólidos.</li>
+            <li>Nos enfocamos en comprender tus necesidades y ofrecerte soluciones personalizadas.</li>
+            <li>Ofrecemos precios competitivos y transparentes.</li>
+            <li>Brindamos un servicio de calidad y atención al cliente excepcional.</li>
+            <li>Nuestro objetivo es tu satisfacción y éxito.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Contacto: 7772310427 | sergioethancoronahernandez@gmail.com</p>
+    </footer>
+</body>
+</html>
